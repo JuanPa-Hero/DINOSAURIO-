@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#071426"><meta name="description" content="Checklist para coleccionar monstruos Dinosaurio de Yu-Gi-Oh!">
+<link rel="manifest" href="manifest.json"><link rel="icon" href="assets/icon-192.png">
+<title>Dinosaur Card Binder</title>
+<style>
+:root{color-scheme:dark;--bg:#07111f;--panel:#101f33;--line:#244260;--cyan:#45c8ff;--green:#42d69a;--red:#ff647b;--muted:#9fb4c9}
+*{box-sizing:border-box}body{margin:0;background:radial-gradient(ellipse at top,#102e4c 0,#07111f 48%,#050b14 100%);color:#f4f8ff;font-family:system-ui,-apple-system,Segoe UI,sans-serif}
+header{padding:16px 16px 10px;max-width:850px;margin:auto}.hero{height:190px;border-radius:18px;background:linear-gradient(0deg,rgba(4,13,25,.85),rgba(4,13,25,.08)),url('assets/dinosaur-banner.jpg') center 34%/cover;border:1px solid #245276;display:flex;align-items:end;padding:16px;box-shadow:0 8px 28px #0008}
+h1{font-size:clamp(25px,6vw,38px);margin:0;text-shadow:0 2px 8px #000}.sub{color:#c6eaff;margin:4px 0 0;font-size:13px}
+main{max-width:850px;margin:auto;padding:10px 16px 40px}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:12px 0}.stat,.panel{background:#102239dd;border:1px solid var(--line);border-radius:14px;padding:12px}.stat strong{display:block;font-size:23px;color:var(--cyan)}.stat span{font-size:12px;color:var(--muted)}
+.progress{height:9px;background:#26384d;border-radius:20px;overflow:hidden;margin:9px 0 16px}.progress div{height:100%;background:linear-gradient(90deg,#31bdff,#42d69a);width:0}
+.controls{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:10px}.controls input,.controls select,.formrow input,.formrow select{min-width:0;width:100%;background:#091729;color:white;border:1px solid #35516e;border-radius:10px;padding:11px;font-size:14px}
+.tabs{display:flex;gap:7px;overflow:auto;margin:10px 0}.tabs button,.action{border:1px solid #315472;background:#112b43;color:#eaf7ff;border-radius:10px;padding:10px 13px;font-weight:650;white-space:nowrap}.tabs button.active{background:#0876a8;border-color:#46caff}
+.card{display:flex;gap:10px;align-items:center;padding:11px 10px;border-bottom:1px solid #223b54;background:#0d1c2d}.card:first-child{border-radius:12px 12px 0 0}.card:last-child{border-radius:0 0 12px 12px}.card input{width:21px;height:21px;accent-color:#39d69a;flex-shrink:0}.card .name{flex:1;font-size:14px;overflow-wrap:anywhere}.card.owned .name{color:#83a99e;text-decoration:line-through}.tag{font-size:10px;color:#a8c7df;background:#18344e;padding:4px 7px;border-radius:20px;white-space:nowrap}.delete{background:#3b1723;color:#ff9baa;border:1px solid #753044;border-radius:8px;padding:6px 8px}
+.formrow{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:8px 0}.formrow .wide{grid-column:1/-1}.action.primary{background:#0876a8;border-color:#36b9f3}.action.danger{background:#421a27;border-color:#8a354d}.rowactions{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.hint{font-size:12px;color:var(--muted);line-height:1.5}.sectiontitle{font-size:17px;margin:18px 0 8px}.empty{text-align:center;padding:25px;color:var(--muted)}
+footer{text-align:center;color:#7992aa;font-size:11px;padding:24px}
+@media(min-width:600px){.hero{height:240px}.controls{grid-template-columns:2fr 1fr 1fr}}
+</style></head>
+<body>
+<header><div class="hero"><div><h1>🦖 Dinosaur Card Binder</h1><p class="sub">Tu colección de monstruos Dinosaurio de Yu-Gi-Oh!</p></div></div></header>
+<main>
+<div class="stats"><div class="stat"><strong id="total">0</strong><span>Cartas en lista</span></div><div class="stat"><strong id="owned">0</strong><span>Ya tengo</span></div><div class="stat"><strong id="missing">0</strong><span>Me faltan</span></div></div>
+<div class="progress"><div id="bar"></div></div>
+<div class="controls">
+<input id="search" placeholder="Buscar dinosaurio..." aria-label="Buscar">
+<select id="groupFilter"><option value="">Todas las familias</option></select>
+<select id="statusFilter"><option value="all">Todas</option><option value="missing">Me faltan</option><option value="owned">Ya las tengo</option></select>
+</div>
+<div class="tabs"><button class="active" data-tab="list">Mi colección</button><button data-tab="add">Agregar carta</button><button data-tab="manage">Mis agregadas</button><button data-tab="backup">Respaldo</button></div>
+<section id="listView"><div id="cards"></div></section>
+<section id="addView" hidden><div class="panel"><h2 class="sectiontitle">Agregar un dinosaurio</h2><form id="addForm"><div class="formrow"><input id="newName" class="wide" required maxlength="100" placeholder="Nombre de la carta"><select id="newGroup"><option>Generales</option><option>Dinowrestler</option><option>Dinomorphia</option><option>Evolsaur</option><option>Jurrac</option><option>Transcendosaurus</option><option>Doodle Beast</option><option>Otros</option><option>Personalizadas</option></select><select id="newStatus"><option value="false">Me falta</option><option value="true">Ya la tengo</option></select></div><button class="action primary" type="submit">＋ Agregar a mi lista</button></form><p class="hint">Las cartas que agregues se guardan en este dispositivo y aparecerán en “Mis agregadas”.</p></div></section>
+<section id="manageView" hidden><h2 class="sectiontitle">Cartas que agregaste</h2><div id="customCards"></div><p class="hint">Desde aquí puedes eliminar las cartas personalizadas. Las cartas de la lista inicial no se eliminan accidentalmente.</p></section>
+<section id="backupView" hidden><div class="panel"><h2 class="sectiontitle">Respaldo de colección</h2><p class="hint">Guarda una copia de tus marcas y cartas agregadas para recuperarlas si cambias de navegador o dispositivo.</p><div class="rowactions"><button id="exportBtn" class="action primary">Descargar respaldo</button><label class="action">Importar respaldo<input id="importFile" type="file" accept="application/json" hidden></label><button id="csvBtn" class="action">Descargar CSV</button></div><div class="rowactions"><button id="resetBtn" class="action danger">Desmarcar todas</button></div></div></section>
+<footer>Dinosaur Card Binder · El progreso se guarda automáticamente en este navegador.</footer>
+</main>
+<script>
+const KEY='dinosaur-card-binder-v1';
+let cards=[];
+const $=id=>document.getElementById(id);
+async function init(){
+ try{const saved=localStorage.getItem(KEY);if(saved){cards=JSON.parse(saved)}else{const r=await fetch('cards.json');cards=await r.json();save()}}catch(e){cards=[]}
+ fillGroups();render();
+}
+function save(){localStorage.setItem(KEY,JSON.stringify(cards))}
+function esc(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+function fillGroups(){const sel=$('groupFilter');const groups=[...new Set(cards.map(c=>c.group))].sort();sel.innerHTML='<option value="">Todas las familias</option>'+groups.map(g=>`<option value="${esc(g)}">${esc(g)}</option>`).join('')}
+function render(){
+ const total=cards.length,owned=cards.filter(c=>c.owned).length,missing=total-owned;
+ $('total').textContent=total;$('owned').textContent=owned;$('missing').textContent=missing;$('bar').style.width=(total?owned/total*100:0)+'%';
+ const q=$('search').value.trim().toLowerCase(),g=$('groupFilter').value,s=$('statusFilter').value;
+ const filtered=cards.filter(c=>(!q||c.name.toLowerCase().includes(q))&&(!g||c.group===g)&&(s==='all'||(s==='owned'?c.owned:!c.owned)));
+ $('cards').innerHTML=filtered.length?filtered.map(c=>`<div class="card ${c.owned?'owned':''}"><input type="checkbox" ${c.owned?'checked':''} aria-label="Marcar ${esc(c.name)}" onchange="toggleCard('${c.id}',this.checked)"><span class="name">${esc(c.name)}</span><span class="tag">${esc(c.group)}</span>${c.custom?`<button class="delete" onclick="removeCard('${c.id}')">Eliminar</button>`:''}</div>`).join(''):'<div class="empty">No se encontraron cartas.</div>';
+ const customs=cards.filter(c=>c.custom);
+ $('customCards').innerHTML=customs.length?customs.map(c=>`<div class="card"><span class="name">${esc(c.name)}</span><span class="tag">${esc(c.group)}</span><button class="delete" onclick="removeCard('${c.id}')">Eliminar</button></div>`).join(''):'<div class="empty">Todavía no has agregado cartas.</div>';
+ fillGroups();
+}
+function toggleCard(id,val){const c=cards.find(x=>x.id===id);if(c){c.owned=val;save();render()}}
+function removeCard(id){const c=cards.find(x=>x.id===id);if(!c||!c.custom)return;if(confirm(`¿Eliminar "${c.name}" de tu lista?`)){cards=cards.filter(x=>x.id!==id);save();render()}}
+$('addForm').addEventListener('submit',e=>{e.preventDefault();const name=$('newName').value.trim();if(!name)return;if(cards.some(c=>c.name.toLowerCase()===name.toLowerCase())){alert('Esa carta ya está en la lista.');return}cards.push({id:'custom-'+Date.now(),name,group:$('newGroup').value,owned:$('newStatus').value==='true',custom:true});save();$('newName').value='';render();switchTab('list')});
+$('search').addEventListener('input',render);$('groupFilter').addEventListener('change',render);$('statusFilter').addEventListener('change',render);
+function switchTab(tab){document.querySelectorAll('.tabs button').forEach(b=>b.classList.toggle('active',b.dataset.tab===tab));['list','add','manage','backup'].forEach(x=>$(x+'View').hidden=x!==tab)}
+document.querySelectorAll('.tabs button').forEach(b=>b.addEventListener('click',()=>switchTab(b.dataset.tab)));
+$('exportBtn').onclick=()=>{const blob=new Blob([JSON.stringify(cards,null,2)],{type:'application/json'});download(blob,'dinosaur-collection-backup.json')};
+$('csvBtn').onclick=()=>{const rows=[['Nombre','Familia','Estado','Agregada por usuario'],...cards.map(c=>[c.name,c.group,c.owned?'La tengo':'Me falta',c.custom?'Sí':'No'])];const csv=rows.map(r=>r.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(',')).join('\n');download(new Blob(['\ufeff'+csv],{type:'text/csv;charset=utf-8'}),'dinosaur-collection.csv')};
+function download(blob,name){const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download=name;a.click();URL.revokeObjectURL(a.href)}
+$('importFile').onchange=async e=>{const f=e.target.files[0];if(!f)return;try{const data=JSON.parse(await f.text());if(!Array.isArray(data)||!data.every(c=>c.name&&c.group))throw Error();if(confirm('¿Reemplazar tu colección actual con el respaldo?')){cards=data;save();fillGroups();render()}}catch(err){alert('El archivo no es un respaldo válido.')}e.target.value=''};
+$('resetBtn').onclick=()=>{if(confirm('¿Seguro que deseas marcar todas las cartas como faltantes?')){cards.forEach(c=>c.owned=false);save();render()}};
+if('serviceWorker'in navigator)window.addEventListener('load',()=>navigator.serviceWorker.register('./sw.js').catch(()=>{}));
+init();
+</script></body></html>

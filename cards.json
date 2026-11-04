@@ -1,0 +1,968 @@
+[
+  {
+    "id": "seed-1",
+    "name": "Absolute King - Megaplunder",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-2",
+    "name": "Anthrosaurus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-3",
+    "name": "Babycerasaurus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-4",
+    "name": "Bayerock Dragon",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-5",
+    "name": "Beatraptor",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-6",
+    "name": "Black Brachios",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-7",
+    "name": "Black Ptera",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-8",
+    "name": "Black Stego",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-9",
+    "name": "Black Tyranno",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-10",
+    "name": "Black Veloci",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-11",
+    "name": "Bladesaurus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-12",
+    "name": "Bracchio-Raidus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-13",
+    "name": "Carboneddon",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-14",
+    "name": "Celebrontosaurus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-15",
+    "name": "Crawling Dragon #2",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-16",
+    "name": "Dark Driceratops",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-17",
+    "name": "Dark Tyranno",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-18",
+    "name": "Destroyersaurus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-19",
+    "name": "Double-Headed Dino King Rex",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-20",
+    "name": "Fire Opal Head",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-21",
+    "name": "Flowerdino",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-22",
+    "name": "Frostosaurus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-23",
+    "name": "Giant Rex",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-24",
+    "name": "Gilasaurus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-25",
+    "name": "Hyper Hammerhead",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-26",
+    "name": "Kabazauls",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-27",
+    "name": "Little D",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-28",
+    "name": "Mad Sword Beast",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-29",
+    "name": "Mammoth Graveyard",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-30",
+    "name": "Megalosmasher X",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-31",
+    "name": "Megazowler",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-32",
+    "name": "Miracle Jurassic Egg",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-33",
+    "name": "Miscellaneousaurus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-34",
+    "name": "Petiteranodon",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-35",
+    "name": "Sabersaurus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-36",
+    "name": "Sauropod Brachion",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-37",
+    "name": "Stegocyber",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-38",
+    "name": "Submareed Tour Ride",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-39",
+    "name": "Super Ancient Dinobeast",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-40",
+    "name": "Super Conductor Tyranno",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-41",
+    "name": "Sword Arm of Dragon",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-42",
+    "name": "Tomozaurus",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-43",
+    "name": "Trakodon",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-44",
+    "name": "Two-Headed King Rex",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-45",
+    "name": "Tyranno Infinity",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-46",
+    "name": "Ultimate Conductor Tyranno",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-47",
+    "name": "Uraby",
+    "group": "Generales",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-48",
+    "name": "Dinowrestler Capaptera",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-49",
+    "name": "Dinowrestler Capoeiraptor",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-50",
+    "name": "Dinowrestler Chimera T Wrextle",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-51",
+    "name": "Dinowrestler Coelasilat",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-52",
+    "name": "Dinowrestler Eskrimamenchi",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-53",
+    "name": "Dinowrestler Giga Spinosavate",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-54",
+    "name": "Dinowrestler Iguanodraka",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-55",
+    "name": "Dinowrestler King T Wrextle",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-56",
+    "name": "Dinowrestler Martial Ampelo",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-57",
+    "name": "Dinowrestler Martial Anga",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-58",
+    "name": "Dinowrestler Martial Ankylo",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-59",
+    "name": "Dinowrestler Pankratops",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-60",
+    "name": "Dinowrestler Rambrachio",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-61",
+    "name": "Dinowrestler Systegosaur",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-62",
+    "name": "Dinowrestler Terra Parkourio",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-63",
+    "name": "Dinowrestler Valeonyx",
+    "group": "Dinowrestler",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-64",
+    "name": "Dinomorphia Diplos",
+    "group": "Dinomorphia",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-65",
+    "name": "Dinomorphia Kentregina",
+    "group": "Dinomorphia",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-66",
+    "name": "Dinomorphia Rexterm",
+    "group": "Dinomorphia",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-67",
+    "name": "Dinomorphia Stealthbergia",
+    "group": "Dinomorphia",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-68",
+    "name": "Dinomorphia Therizia",
+    "group": "Dinomorphia",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-69",
+    "name": "Evolsaur Cerato",
+    "group": "Evolsaur",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-70",
+    "name": "Evolsaur Darwino",
+    "group": "Evolsaur",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-71",
+    "name": "Evolsaur Diplo",
+    "group": "Evolsaur",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-72",
+    "name": "Evolsaur Elias",
+    "group": "Evolsaur",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-73",
+    "name": "Evolsaur Lios",
+    "group": "Evolsaur",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-74",
+    "name": "Evolsaur Pelta",
+    "group": "Evolsaur",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-75",
+    "name": "Evolsaur Terias",
+    "group": "Evolsaur",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-76",
+    "name": "Evolsaur Vulcano",
+    "group": "Evolsaur",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-77",
+    "name": "Jurrac Aeolo",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-78",
+    "name": "Jurrac Astero",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-79",
+    "name": "Jurrac Brachis",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-80",
+    "name": "Jurrac Dino",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-81",
+    "name": "Jurrac Gallim",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-82",
+    "name": "Jurrac Giganoto",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-83",
+    "name": "Jurrac Guaiba",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-84",
+    "name": "Jurrac Herra",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-85",
+    "name": "Jurrac Iguanon",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-86",
+    "name": "Jurrac Megalo",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-87",
+    "name": "Jurrac Meteor",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-88",
+    "name": "Jurrac Monoloph",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-89",
+    "name": "Jurrac Protops",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-90",
+    "name": "Jurrac Ptera",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-91",
+    "name": "Jurrac Spinos",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-92",
+    "name": "Jurrac Stauriko",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-93",
+    "name": "Jurrac Stego",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-94",
+    "name": "Jurrac Titano",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-95",
+    "name": "Jurrac Tyrannus",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-96",
+    "name": "Jurrac Velo",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-97",
+    "name": "Jurrac Velphito",
+    "group": "Jurrac",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-98",
+    "name": "Transcendosaurus Drillygnathus",
+    "group": "Transcendosaurus",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-99",
+    "name": "Transcendosaurus Exaraptor",
+    "group": "Transcendosaurus",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-100",
+    "name": "Transcendosaurus Gigantozowler",
+    "group": "Transcendosaurus",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-101",
+    "name": "Transcendosaurus Glaciasaurus",
+    "group": "Transcendosaurus",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-102",
+    "name": "Transcendosaurus Meteorus",
+    "group": "Transcendosaurus",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-103",
+    "name": "Doodle Beast - Stego",
+    "group": "Doodle Beast",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-104",
+    "name": "Doodle Beast - Tyranno",
+    "group": "Doodle Beast",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-105",
+    "name": "Dogoran, the Mad Flame Kaiju",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-106",
+    "name": "Duoterion",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-107",
+    "name": "Element Saurus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-108",
+    "name": "Evilswarm Salamandra",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-109",
+    "name": "Galaxy Tyranno",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-110",
+    "name": "Gladiator Beast Gaiodiaz",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-111",
+    "name": "Gladiator Beast Spartacus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-112",
+    "name": "Grenosaurus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-113",
+    "name": "Grenosaurus Giga-Cannon",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-114",
+    "name": "Guardian Grarl",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-115",
+    "name": "Hazy Flame Hydra",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-116",
+    "name": "Hydrogeddon",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-117",
+    "name": "Oxygeddon",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-118",
+    "name": "Pyrorex the Elemental Lord",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-119",
+    "name": "Number 61: Volcasaurus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-120",
+    "name": "Overtex Qoatlus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-121",
+    "name": "Reprodocus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-122",
+    "name": "Scrap Raptor",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-123",
+    "name": "Souleating Oviraptor",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-124",
+    "name": "Steamed Sabersaurus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-125",
+    "name": "T.G. Booster Raptor",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-126",
+    "name": "Dinovatus Docus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-127",
+    "name": "Horned Brute Carnovorus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-128",
+    "name": "Horned Saurus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-129",
+    "name": "Kaitoptera",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-130",
+    "name": "Kyoro Ryu-Ge Kaiva",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-131",
+    "name": "Lancephorhynchus",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-132",
+    "name": "Magical Cavalry of Cxulub",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-133",
+    "name": "Number 19: Freezadon",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-134",
+    "name": "QQ Enneagon",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-135",
+    "name": "Re: EX",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-136",
+    "name": "Samurai Cavalry of Reptier",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-137",
+    "name": "Steel Cavalry of Dinon",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  },
+  {
+    "id": "seed-138",
+    "name": "Stratiae the Stratasmasher Dino",
+    "group": "Otros",
+    "owned": false,
+    "custom": false
+  }
+]
